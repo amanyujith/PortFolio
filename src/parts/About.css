@@ -1,0 +1,65 @@
+/* Ensure the container takes the full height of the viewport minus the navbar */
+.home {
+    background-color:rgb(217, 235, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust for the navbar height */
+  }
+  
+  .profile-container {
+    text-align: center;
+    background-color: #fff; /* Different background color for the profile container */
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Margin to separate from the next div */
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  .profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-name {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .profile-role {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .additional-info {
+    text-align: center;
+    background-color: #fff; /* Different background color for the additional info div */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+  }
+  
+  .additional-info-text {
+    font-size: 1rem;
+    color: #333;
+  }
+  .git{
+    background-color:whitesmoke;
+    border-radius: 20%;
+    padding: 2%;
+  }
+  .gap{
+    background-color: rgb(217, 235, 241);
+      width: 10%;
+      height: 30px;
+    };
